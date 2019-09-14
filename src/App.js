@@ -60,11 +60,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        
+        <div className="dino-div">
         <button onClick={() =>
           this.shuffle(this.state.students)
           
-        }><img src={dino} alt={dino} className="dino"/></button>
+        }><img src={dino} alt={dino} className="dino"/></button></div>
         {/* <List students={this.state.students} /> */}
       
         <Pairs pairs={this.state.pairs} />

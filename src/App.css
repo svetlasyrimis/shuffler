@@ -1,12 +1,12 @@
 .App {
   display:flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  /* justify-content: center; */
   align-items: center;
 }
 body {
   margin: 0;
-  padding: 30px;
+  padding: 10px;
 }
 * {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
@@ -15,8 +15,15 @@ body {
 }
 
 .list {
-  width: 70%;
+  padding-left: 40px;
+  width: 80%;
+  /* background-color: rgb(220, 220, 233); */
+  /* padding: 20px; */
   
+}
+.dino-div {
+  align-self: baseline;
+ 
 }
 .pair {
   display: flex;
@@ -32,11 +39,12 @@ body {
 }
 button {
   border: none;
+  align-self: flex-start;
 }
 .name {
   width: 50%;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 22px;
   padding: 13px;
   margin: 3px 0;
   color: white;
