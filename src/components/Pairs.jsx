@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Pairs(props) {
-  console.log(props)
+  // console.log(props)
   return (
 
     <div className="list">

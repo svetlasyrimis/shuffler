@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import List from './components/List'
+// import List from './components/List'
 import Pairs from './components/Pairs'
 // const students = require('./students')
 import { students } from './students'
 import dino from './assets/dino.jpg'
+
 
 
 class App extends React.Component {
@@ -19,23 +20,21 @@ class App extends React.Component {
   
   }
 
-  
+ 
   shuffle = (array) => {
+    
     for (let i = array.length - 1; i > 0; i--) {
-      let random = Math.floor(Math.random() * (i + 1))
-      let temp = array[i];
-      array[i] = array[random];
-      array[random] = temp;
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
     }
     this.setState({
       students: array
     })
-    
-    let pairs = this.pair(this.state.students) 
-    
+    let pairs = this.pair(this.state.students);
     this.setState({
       pairs: pairs
     })
+   
   }
 
   pair = (array) => {
@@ -43,14 +42,16 @@ class App extends React.Component {
     let modifiedArray = [];
     let indexToSplit = Math.floor((array.length / 2))
     let first = array.slice(0, indexToSplit)
-    let second = array.slice(indexToSplit + 1)  
+    
+    let second = array.slice(indexToSplit + 1)
+    second.reverse();
     newArray.push(first, second)
+    
     for (let i = 0; i <= newArray.length; i += 1) {
       for (let j = 0; j < newArray[i].length; j += 1) {
         let pair = [newArray[i][j], newArray[i + 1][j]]
         modifiedArray.push(pair)
-        // console.log(pair)
-        
+      
       } 
       return modifiedArray
     }  
