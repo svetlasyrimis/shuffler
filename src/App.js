@@ -30,9 +30,9 @@ class App extends React.Component {
     this.setState({
       students: array
     })
-    console.log(this.state.students)
+    
     let pairs = this.pair(this.state.students) 
-    console.log(pairs)
+    
     this.setState({
       pairs: pairs
     })
@@ -64,7 +64,7 @@ class App extends React.Component {
         <button onClick={() =>
           this.shuffle(this.state.students)
           
-        }><img src={dino} className="dino"/></button>
+        }><img src={dino} alt={dino} className="dino"/></button>
         {/* <List students={this.state.students} /> */}
       
         <Pairs pairs={this.state.pairs} />
