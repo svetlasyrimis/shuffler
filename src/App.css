@@ -16,6 +16,7 @@ body {
 
 .list {
   width: 70%;
+  
 }
 .pair {
   display: flex;
@@ -26,7 +27,6 @@ body {
 }
 
 .dino {
- 
   height: 100px;
   cursor: pointer;
 }
@@ -36,9 +36,9 @@ button {
 .name {
   width: 50%;
   font-weight: 800;
-  font-size: 28px;
+  font-size: 40px;
   padding: 13px;
-  margin: 5px 0;
+  margin: 3px 0;
   color: white;
   display:flex;
   justify-content: center;
