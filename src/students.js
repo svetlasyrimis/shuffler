@@ -115,6 +115,10 @@ export const students = [
   {
     id: 29,
     name: "Zita Zhang"
+  },
+  {
+    id: 30,
+    name: "By Yourself"
   }
 ]
 
