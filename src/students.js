@@ -89,7 +89,7 @@ export const students = [
     name: "Steve Petaccia"
   },
   {
-    id: 22,
+    id: 23,
     name: "John Sujith"
   },
   {
@@ -101,7 +101,7 @@ export const students = [
     name: "Winston Meikle"
   },
   {
-    id: 25,
+    id: 26,
     name: "Yohlanna Cort"
   },
   {
