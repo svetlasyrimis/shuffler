@@ -4,4 +4,4 @@ git push origin master &&
 npm run build &&
 cd build &&
 mv index.html 200.html &&
-npx surge 
+npx surge --domain http://dinoshuffler.surge.sh
