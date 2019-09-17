@@ -14,110 +14,102 @@ export const students = [
   },
   {
     id: 4,
-    name: "Celia Macrae"
-  },
-  {
-    id: 5,
     name: "Christopher Cordero"
   },
   {
-    id: 6,
+    id: 5,
     name: "Daeqwon Hunter"
   },
   {
-    id: 7,
+    id: 6,
     name:"Gregoire Boirond Jr"
   },
   {
-    id: 8,
+    id: 7,
     name: "Hector Perez"
   },
   {
-    id: 9,
+    id: 8,
     name: "Ian Rappaport"
   },
   {
-    id: 10,
+    id: 9,
     name:  "James Markham"
   },
   {
-    id: 11,
+    id: 10,
     name: "Jason Mullings"
   },
   {
-    id: 12,
+    id: 11,
     name: "Katie Gray"
   },
   {
-    id: 13,
+    id: 12,
     name: "Matthew Chen" 
   },
   {
-    id: 14,
+    id: 13,
     name: "Matthew Swaim"
   },
   {
-    id: 15,
+    id: 14,
     name: "Melanie Phan"
   },
   {
-    id: 16,
+    id: 15,
     name: "Michael Heavens"
   },
   {
-    id: 17,
+    id: 16,
     name: "Michael Abatemarco"
   },
   {
-    id: 18,
+    id: 17,
     name: "Nehemias Cruz"
   },
   {
-    id: 19,
+    id: 18,
     name:  "Rafael Castano"
   },
   {
-    id: 20,
+    id: 19,
     name: "Raul Jiminian"
   },
   {
-    id: 21,
+    id: 20,
     name: "Sabrina Scatena"
   },
   {
-    id: 22,
+    id: 21,
     name: "Shay Kelley"
   },
   {
-    id: 23,
-    name: "Sophie Block",
-  },
-  {
-    id: 24,
+    id: 22,
     name: "Steve Pettaccia"
   },
   {
-    id: 25,
+    id: 22,
     name: "John Sujith"
   },
   {
-    id: 26,
+    id: 24,
     name: "Takashi Tsukamoto"
   },
   {
-    id: 27,
+    id: 25,
     name: "Winston Meikle"
   },
   {
-    id: 28,
+    id: 25,
     name: "Yohlanna Cort"
   },
   {
-    id: 29,
+    id: 27,
     name: "Zita Zhang"
   },
   {
-    id: 30,
+    id: 28,
     name: "By Yourself"
   }
 ]
