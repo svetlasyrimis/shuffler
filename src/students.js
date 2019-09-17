@@ -86,7 +86,7 @@ export const students = [
   },
   {
     id: 22,
-    name: "Steve Pettaccia"
+    name: "Steve Petaccia"
   },
   {
     id: 22,
