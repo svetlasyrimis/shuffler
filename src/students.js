@@ -58,59 +58,52 @@ export const students = [
   },
   {
     id: 15,
-    name: "Michael Heavens"
-  },
-  {
-    id: 16,
     name: "Michael Abatemarco"
   },
   {
-    id: 17,
+    id: 16,
     name: "Nehemias Cruz"
   },
   {
-    id: 18,
+    id: 17,
     name:  "Rafael Castano"
   },
   {
-    id: 19,
+    id: 18,
     name: "Raul Jiminian"
   },
   {
-    id: 20,
+    id: 19,
     name: "Sabrina Scatena"
   },
   {
-    id: 21,
+    id: 20,
     name: "Shay Kelley"
   },
   {
-    id: 22,
+    id: 21,
     name: "Steve Petaccia"
   },
   {
-    id: 23,
+    id: 22,
     name: "John Sujith"
   },
   {
-    id: 24,
+    id: 23,
     name: "Takashi Tsukamoto"
   },
   {
-    id: 25,
+    id: 24,
     name: "Winston Meikle"
   },
   {
-    id: 26,
+    id: 25,
     name: "Yohlanna Cort"
   },
   {
-    id: 27,
+    id: 26,
     name: "Zita Zhang"
   },
-  {
-    id: 28,
-    name: "By Yourself"
-  }
+  
 ]
 
