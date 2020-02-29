@@ -5,6 +5,7 @@ import Pairs from './components/Pairs'
 // const students = require('./students')
 import { students } from './students'
 import dino from './assets/dino.jpg'
+import mando from './assets/mand.png'
 import PairsTwo from './components/PairsTwo'
 
 
@@ -82,7 +83,7 @@ class App extends React.Component {
         <button onClick={() =>
           this.shuffle(this.state.students)
           
-        }><img src={dino} alt={dino} className="dino"/></button></div>
+        }><img src={mando} alt={mando} className="dino"/></button></div>
         {/* <List students={this.state.students} /> */}
         <PairsTwo pairs={this.state.pairs} />
         {/* <Pairs pairs={this.state.pairs} /> */}

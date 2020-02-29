@@ -1,109 +1,101 @@
 export const students = [
   {
     id: 1,
-    name: "Angie Zafra"
+    name: "Andres"
   },
   {
     id: 2,
-    name: "Antonio Panuccio"
+    name: "Artemie"
   },
   {
     id: 3,
-    name: "Ben Grzybowski",
+    name: "Bobby",
 
   },
   {
     id: 4,
-    name: "Christopher Cordero"
+    name: "Brandon"
   },
   {
     id: 5,
-    name: "Daeqwon Hunter"
+    name: "Bryan"
   },
   {
     id: 6,
-    name:"Gregoire Boirond Jr"
+    name:"CJ"
   },
   {
     id: 7,
-    name: "Hector Perez"
+    name: "Corinna"
   },
   {
     id: 8,
-    name: "Ian Rappaport"
+    name: "D.William"
   },
   {
     id: 9,
-    name:  "James Markham"
+    name:  "Devon"
   },
   {
     id: 10,
-    name: "Jason Mullings"
+    name: "Dwayne"
   },
   {
     id: 11,
-    name: "Katie Gray"
+    name: "Jennifer"
   },
   {
     id: 12,
-    name: "Matthew Chen" 
+    name: "Jonathan" 
   },
   {
     id: 13,
-    name: "Matthew Swaim"
+    name: "Kathleen"
   },
   {
     id: 14,
-    name: "Melanie Phan"
+    name: "Laurice"
   },
   {
     id: 15,
-    name: "Michael Abatemarco"
+    name: "Lia"
   },
   {
     id: 16,
-    name: "Nehemias Cruz"
+    name: "Mary"
   },
   {
     id: 17,
-    name:  "Rafael Castano"
+    name:  "Pierce"
   },
   {
     id: 18,
-    name: "Raul Jiminian"
+    name: "Regina"
   },
   {
     id: 19,
-    name: "Sabrina Scatena"
+    name: "Rico"
   },
   {
     id: 20,
-    name: "Shay Kelley"
+    name: "Ro"
   },
   {
     id: 21,
-    name: "Steve Petaccia"
+    name: "Stef"
   },
   {
     id: 22,
-    name: "John Sujith"
+    name: "Trisha"
   },
   {
     id: 23,
-    name: "Takashi Tsukamoto"
+    name: "Slava"
   },
   {
     id: 24,
-    name: "Winston Meikle"
-  },
-  {
-    id: 25,
-    name: "Yohlanna Cort"
-  },
-  {
-    id: 26,
-    name: "Zita Zhang"
-  },
+    name: "Chao"
+  }
   
 ]
 

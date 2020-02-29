@@ -52,7 +52,7 @@ button {
   justify-content: center;
   letter-spacing: 2px; }
   .name:nth-child(even) {
-    background: rgba(30, 70, 30, 0.877); }
+    background:rgb(44,77,99); }
   .name:nth-child(odd) {
-    background: rgb(12, 12, 12); 
+    background: rgb(88,118,141); 
 }
